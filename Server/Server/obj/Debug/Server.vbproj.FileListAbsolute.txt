@@ -1,0 +1,22 @@
+C:\Users\samba\OneDrive\Desktop\TCP CLIENT AND SERVER\Server\Server\bin\Debug\Server.exe.config
+C:\Users\samba\OneDrive\Desktop\TCP CLIENT AND SERVER\Server\Server\bin\Debug\Server.exe
+C:\Users\samba\OneDrive\Desktop\TCP CLIENT AND SERVER\Server\Server\bin\Debug\Server.pdb
+C:\Users\samba\OneDrive\Desktop\TCP CLIENT AND SERVER\Server\Server\bin\Debug\Server.xml
+C:\Users\samba\OneDrive\Desktop\TCP CLIENT AND SERVER\Server\Server\obj\Debug\Server.vbprojResolveAssemblyReference.cache
+C:\Users\samba\OneDrive\Desktop\TCP CLIENT AND SERVER\Server\Server\obj\Debug\Server.Form1.resources
+C:\Users\samba\OneDrive\Desktop\TCP CLIENT AND SERVER\Server\Server\obj\Debug\Server.Resources.resources
+C:\Users\samba\OneDrive\Desktop\TCP CLIENT AND SERVER\Server\Server\obj\Debug\Server.vbproj.GenerateResource.Cache
+C:\Users\samba\OneDrive\Desktop\TCP CLIENT AND SERVER\Server\Server\obj\Debug\Server.exe
+C:\Users\samba\OneDrive\Desktop\TCP CLIENT AND SERVER\Server\Server\obj\Debug\Server.xml
+C:\Users\samba\OneDrive\Desktop\TCP CLIENT AND SERVER\Server\Server\obj\Debug\Server.pdb
+C:\Users\samba\OneDrive\Desktop\DEV2 YEAR PROJECT\TCP CLIENT AND SERVER\Server\Server\bin\Debug\Server.exe.config
+C:\Users\samba\OneDrive\Desktop\DEV2 YEAR PROJECT\TCP CLIENT AND SERVER\Server\Server\obj\Debug\Server.exe
+C:\Users\samba\OneDrive\Desktop\DEV2 YEAR PROJECT\TCP CLIENT AND SERVER\Server\Server\obj\Debug\Server.xml
+C:\Users\samba\OneDrive\Desktop\DEV2 YEAR PROJECT\TCP CLIENT AND SERVER\Server\Server\obj\Debug\Server.pdb
+C:\Users\samba\OneDrive\Desktop\DEV2 YEAR PROJECT\TCP CLIENT AND SERVER\Server\Server\bin\Debug\Server.exe
+C:\Users\samba\OneDrive\Desktop\DEV2 YEAR PROJECT\TCP CLIENT AND SERVER\Server\Server\bin\Debug\Server.pdb
+C:\Users\samba\OneDrive\Desktop\DEV2 YEAR PROJECT\TCP CLIENT AND SERVER\Server\Server\bin\Debug\Server.xml
+C:\Users\samba\OneDrive\Desktop\DEV2 YEAR PROJECT\TCP CLIENT AND SERVER\Server\Server\obj\Debug\Server.vbprojResolveAssemblyReference.cache
+C:\Users\samba\OneDrive\Desktop\DEV2 YEAR PROJECT\TCP CLIENT AND SERVER\Server\Server\obj\Debug\Server.Form1.resources
+C:\Users\samba\OneDrive\Desktop\DEV2 YEAR PROJECT\TCP CLIENT AND SERVER\Server\Server\obj\Debug\Server.Resources.resources
+C:\Users\samba\OneDrive\Desktop\DEV2 YEAR PROJECT\TCP CLIENT AND SERVER\Server\Server\obj\Debug\Server.vbproj.GenerateResource.Cache
