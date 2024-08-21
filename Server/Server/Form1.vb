@@ -31,16 +31,21 @@ Public Class Form1
 
             While True
                 Dim ns As NetworkStream = client.GetStream()
-                Dim toReceive(1024) As Byte
-                Dim bytesRead As Integer = ns.Read(toReceive, 0, toReceive.Length)
-                Dim txt As String = Encoding.ASCII.GetString(toReceive, 0, bytesRead)
+                Dim buffer(1024) As Byte
+                Dim bytesRead As Integer = ns.Read(buffer, 0, buffer.Length)
 
-                For Each c As TcpClient In listOfClients
-                    If c IsNot client Then
-                        Dim nns As NetworkStream = c.GetStream()
-                        nns.Write(Encoding.ASCII.GetBytes(txt), 0, txt.Length)
-                    End If
-                Next
+                If bytesRead > 0 Then
+
+                    Dim txt As String = Encoding.UTF8.GetString(buffer, 0, bytesRead)
+
+                    For Each c As TcpClient In listOfClients
+                        If c IsNot client Then
+                            Dim nns As NetworkStream = c.GetStream()
+                            Dim data As Byte() = Encoding.UTF8.GetBytes(txt)
+                            nns.Write(data, 0, data.Length)
+                        End If
+                    Next
+                End If
             End While
 
         Catch ex As Exception

@@ -38,7 +38,8 @@ Public Class Form1
                 Dim bytesRead As Integer = ns.Read(buffer, 0, buffer.Length)
 
                 If bytesRead > 0 Then
-                    Dim txt As String = Encoding.ASCII.GetString(buffer, 0, bytesRead)
+
+                    Dim txt As String = Encoding.UTF8.GetString(buffer, 0, bytesRead)
 
                     If Not txt.StartsWith(username & ":") Then
                         AppendText(txt)
@@ -52,7 +53,6 @@ Public Class Form1
     End Sub
 
     Private Sub AppendText(text As String)
-
         If RichTextBox1.InvokeRequired Then
             RichTextBox1.Invoke(Sub() RichTextBox1.AppendText(text & vbNewLine))
         Else
@@ -65,7 +65,8 @@ Public Class Form1
             Dim ns As NetworkStream = client.GetStream()
 
             Dim message As String = username & ": " & TextBox1.Text
-            ns.Write(Encoding.ASCII.GetBytes(message), 0, message.Length)
+            Dim data As Byte() = Encoding.UTF8.GetBytes(message)
+            ns.Write(data, 0, data.Length)
 
             AppendText(message)
 
