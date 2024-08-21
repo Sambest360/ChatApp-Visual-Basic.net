@@ -20,3 +20,16 @@ C:\Users\samba\OneDrive\Desktop\DEV2 YEAR PROJECT\TCP CLIENT AND SERVER\Client\C
 C:\Users\samba\OneDrive\Desktop\DEV2 YEAR PROJECT\TCP CLIENT AND SERVER\Client\Client\obj\Debug\Client.Form1.resources
 C:\Users\samba\OneDrive\Desktop\DEV2 YEAR PROJECT\TCP CLIENT AND SERVER\Client\Client\obj\Debug\Client.Resources.resources
 C:\Users\samba\OneDrive\Desktop\DEV2 YEAR PROJECT\TCP CLIENT AND SERVER\Client\Client\obj\Debug\Client.vbproj.GenerateResource.Cache
+C:\Users\samba\OneDrive\Desktop\ChatApp-Visual-Basic.net\Client\Client\bin\Debug\Client.exe.config
+C:\Users\samba\OneDrive\Desktop\ChatApp-Visual-Basic.net\Client\Client\bin\Debug\Client.exe
+C:\Users\samba\OneDrive\Desktop\ChatApp-Visual-Basic.net\Client\Client\bin\Debug\Client.pdb
+C:\Users\samba\OneDrive\Desktop\ChatApp-Visual-Basic.net\Client\Client\bin\Debug\Client.xml
+C:\Users\samba\OneDrive\Desktop\ChatApp-Visual-Basic.net\Client\Client\obj\Debug\Client.Form1.resources
+C:\Users\samba\OneDrive\Desktop\ChatApp-Visual-Basic.net\Client\Client\obj\Debug\Client.Resources.resources
+C:\Users\samba\OneDrive\Desktop\ChatApp-Visual-Basic.net\Client\Client\obj\Debug\Client.vbproj.GenerateResource.Cache
+C:\Users\samba\OneDrive\Desktop\ChatApp-Visual-Basic.net\Client\Client\obj\Debug\Client.exe
+C:\Users\samba\OneDrive\Desktop\ChatApp-Visual-Basic.net\Client\Client\obj\Debug\Client.xml
+C:\Users\samba\OneDrive\Desktop\ChatApp-Visual-Basic.net\Client\Client\obj\Debug\Client.pdb
+C:\Users\samba\OneDrive\Desktop\ChatApp-Visual-Basic.net\Client\Client\obj\Debug\Client.vbproj.AssemblyReference.cache
+C:\Users\samba\OneDrive\Desktop\ChatApp-Visual-Basic.net\Client\Client\obj\Debug\Client.vbproj.SuggestedBindingRedirects.cache
+C:\Users\samba\OneDrive\Desktop\ChatApp-Visual-Basic.net\Client\Client\obj\Debug\Client.vbproj.CoreCompileInputs.cache
