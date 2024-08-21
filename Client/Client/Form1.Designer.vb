@@ -40,7 +40,7 @@ Partial Class Form1
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(15, 229)
+        Me.TextBox1.Location = New System.Drawing.Point(15, 463)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(272, 20)
         Me.TextBox1.TabIndex = 1
@@ -49,13 +49,13 @@ Partial Class Form1
         '
         Me.RichTextBox1.Location = New System.Drawing.Point(15, 41)
         Me.RichTextBox1.Name = "RichTextBox1"
-        Me.RichTextBox1.Size = New System.Drawing.Size(348, 182)
+        Me.RichTextBox1.Size = New System.Drawing.Size(348, 416)
         Me.RichTextBox1.TabIndex = 2
         Me.RichTextBox1.Text = ""
         '
         'btnSned
         '
-        Me.btnSned.Location = New System.Drawing.Point(293, 229)
+        Me.btnSned.Location = New System.Drawing.Point(293, 463)
         Me.btnSned.Name = "btnSned"
         Me.btnSned.Size = New System.Drawing.Size(70, 20)
         Me.btnSned.TabIndex = 3
@@ -76,7 +76,7 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(378, 261)
+        Me.ClientSize = New System.Drawing.Size(381, 491)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.btnSned)
         Me.Controls.Add(Me.RichTextBox1)
