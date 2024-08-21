@@ -14,7 +14,6 @@ Public Class Form1
 
             client = New TcpClient(ip, port)
 
-            ' Prompt the user to enter a username
             username = InputBox("Enter your username:", "Username")
 
             CheckForIllegalCrossThreadCalls = False
@@ -35,14 +34,15 @@ Public Class Form1
 
                 Dim ns As NetworkStream = client.GetStream()
 
-                Dim toRecive(100000) As Byte
-                Dim bytesRead As Integer = ns.Read(toRecive, 0, toRecive.Length)
-                Dim txt As String = Encoding.ASCII.GetString(toRecive, 0, bytesRead)
+                Dim buffer(1024) As Byte
+                Dim bytesRead As Integer = ns.Read(buffer, 0, buffer.Length)
 
-                If RichTextBox1.Text.Length > 0 Then
-                    RichTextBox1.Text &= vbNewLine & txt
-                Else
-                    RichTextBox1.Text = txt
+                If bytesRead > 0 Then
+                    Dim txt As String = Encoding.ASCII.GetString(buffer, 0, bytesRead)
+
+                    If Not txt.StartsWith(username & ":") Then
+                        AppendText(txt)
+                    End If
                 End If
 
             End While
@@ -51,20 +51,23 @@ Public Class Form1
         End Try
     End Sub
 
+    Private Sub AppendText(text As String)
+
+        If RichTextBox1.InvokeRequired Then
+            RichTextBox1.Invoke(Sub() RichTextBox1.AppendText(text & vbNewLine))
+        Else
+            RichTextBox1.AppendText(text & vbNewLine)
+        End If
+    End Sub
+
     Private Sub btnSned_Click(sender As Object, e As EventArgs) Handles btnSned.Click
         Try
             Dim ns As NetworkStream = client.GetStream()
 
-            ' Send the message with the username
             Dim message As String = username & ": " & TextBox1.Text
             ns.Write(Encoding.ASCII.GetBytes(message), 0, message.Length)
 
-            ' Display the sent message in the chat box
-            If RichTextBox1.Text.Length > 0 Then
-                RichTextBox1.Text &= vbNewLine & message
-            Else
-                RichTextBox1.Text = message
-            End If
+            AppendText(message)
 
         Catch ex As Exception
             MsgBox(ex.Message)

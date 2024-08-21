@@ -31,13 +31,15 @@ Public Class Form1
 
             While True
                 Dim ns As NetworkStream = client.GetStream()
-                Dim toReceive(100000) As Byte
+                Dim toReceive(1024) As Byte
                 Dim bytesRead As Integer = ns.Read(toReceive, 0, toReceive.Length)
                 Dim txt As String = Encoding.ASCII.GetString(toReceive, 0, bytesRead)
 
                 For Each c As TcpClient In listOfClients
-                    Dim nns As NetworkStream = c.GetStream()
-                    nns.Write(Encoding.ASCII.GetBytes(txt), 0, txt.Length)
+                    If c IsNot client Then
+                        Dim nns As NetworkStream = c.GetStream()
+                        nns.Write(Encoding.ASCII.GetBytes(txt), 0, txt.Length)
+                    End If
                 Next
             End While
 
